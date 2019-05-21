@@ -1,0 +1,22 @@
+#+TITLE: Wasmer/Rust example
+
+A self-educational project that I'm using to learn how to program in Rust for WASI-compatible runtimes (wasmer in particular).
+
+* Prerequisites
+
+To build and run this project you'll need to
+
+- Get nightly ~rustc~ with ~wasm32-wasi~ toolchain:
+#+BEGIN_SRC
+$ rustup target add wasm32-wasi --toolchain nightly
+#+END_SRC
+- Install [[https://wasmer.io/][wasmer]]
+
+* Building & running
+
+Just use `make run`
+
+#+BEGIN_SRC text
+$ make run
+Hello, World!
+#+END_SRC

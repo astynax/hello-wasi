@@ -1,0 +1,9 @@
+[package]
+name = "hello-wasi"
+version = "0.1.0"
+authors = ["Aleksey Pirogov <astynax@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+ansi_term = "0.11.0"
+
